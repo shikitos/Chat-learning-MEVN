@@ -20,20 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ea49ff6-7a5d-4a27-ad53-3fca4a177281" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/chat-learning-mevn.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Header-chat.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Header-contact.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Header-home.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Header-notifications.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Header-settings.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Icon-Shape.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/just_example.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Icon.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,6 +82,11 @@
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\Purposes\Coding\Front-End\chat-learning-mevn\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Vue" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Purposes\Coding\Front-End\chat-learning-mevn\src\components" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
@@ -102,7 +104,7 @@
       <workItem from="1595175575831" duration="24000" />
       <workItem from="1596474194657" duration="1536000" />
       <workItem from="1596477527418" duration="530000" />
-      <workItem from="1596478128512" duration="743000" />
+      <workItem from="1596478128512" duration="8222000" />
     </task>
     <servers />
   </component>
