@@ -20,18 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ea49ff6-7a5d-4a27-ad53-3fca4a177281" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/Header-chat.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/Header-contact.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/Header-home.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/Header-notifications.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/Header-settings.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/Icon-Shape.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/just_example.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Header-chat-hover.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Header-contact-hover.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Header-home-hover.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Header-notifications-hover.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Header-settings-hover.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Icon.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +66,7 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -83,6 +78,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Vue" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Purposes\Coding\Front-End\chat-learning-mevn\src\assets" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Purposes\Coding\Front-End\chat-learning-mevn\src\components" />
     </key>
@@ -104,7 +102,8 @@
       <workItem from="1595175575831" duration="24000" />
       <workItem from="1596474194657" duration="1536000" />
       <workItem from="1596477527418" duration="530000" />
-      <workItem from="1596478128512" duration="8222000" />
+      <workItem from="1596478128512" duration="8350000" />
+      <workItem from="1596648618239" duration="2224000" />
     </task>
     <servers />
   </component>

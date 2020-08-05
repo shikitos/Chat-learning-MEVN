@@ -58,10 +58,10 @@ ul > li:hover {
   width: 24px;
   height: 24px;
   left: 35px;
+  top: 281px;
 }
 .Header-home:hover::before {
-  content: url("../assets/Header-home.svg#hover");
-  //todo: create HOVER for SVG in ::before
+  content: url("../assets/Header-home-hover.svg");
 }
 .Header-chat::before {
   content: " ";
@@ -70,6 +70,10 @@ ul > li:hover {
   width: 24px;
   height: 24px;
   left: 35px;
+  top: 346px;
+}
+.Header-chat:hover::before {
+  content: url("../assets/Header-chat-hover.svg");
 }
 .Header-contact::before {
   content: " ";
@@ -78,6 +82,10 @@ ul > li:hover {
   width: 24px;
   height: 24px;
   left: 35px;
+  top: 412px;
+}
+.Header-contact:hover::before {
+  content: url("../assets/Header-contact-hover.svg");
 }
 .Header-notifications::before {
   content: " ";
@@ -86,6 +94,10 @@ ul > li:hover {
   width: 24px;
   height: 24px;
   left: 35px;
+  top: 478px;
+}
+.Header-notifications:hover::before {
+  content: url("../assets/Header-notifications-hover.svg");
 }
 .Header-settings::before {
   content: " ";
@@ -94,5 +106,9 @@ ul > li:hover {
   width: 24px;
   height: 24px;
   left: 35px;
+  top: 541px;
+}
+.Header-settings:hover::before {
+  content: url("../assets/Header-settings-hover.svg");
 }
 </style>
