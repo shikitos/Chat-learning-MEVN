@@ -1,52 +1,76 @@
 <template>
-  <div>
+  <div class="header">
     <Icon class="Icon" />
     <nav>
       <ul>
-        <li class="Header-home">Home</li>
-        <li class="Header-chat">Chat</li>
-        <li class="Header-contact">Contact</li>
-        <li class="Header-notifications">Notifications</li>
-        <li class="Header-settings">Settings</li>
+        <li class="Header-home">
+          <a href="#">Home</a>
+        </li>
+        <li class="Header-chat">
+          <a href="#">Chat</a>
+        </li>
+        <li class="Header-contact">
+          <a href="#">Contact</a>
+        </li>
+        <li class="Header-notifications">
+          <a href="#">Notifications</a>
+        </li>
+        <li class="Header-settings">
+          <a href="#">Settings</a>
+        </li>
       </ul>
     </nav>
+    <Logout class="Logout" />
   </div>
 </template>
 
 <script>
 import Icon from "@/components/Icon";
+import Logout from "@/components/Logout";
 
 export default {
   name: "Header",
   components: {
-    Icon
+    Icon,
+    Logout
   }
 };
 </script>
 
 <style scoped>
+a {
+  text-decoration: none;
+  color: #707c97;
+}
+.header {
+  max-width: 18%;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
 .Icon,
 ul {
   display: flex;
   align-items: start;
   flex-direction: column;
-  margin-left: 47px;
+  margin-left: 40px;
 }
 ul {
   list-style: none;
-  margin-left: 79px;
+  margin-left: 70px;
 }
 ul > li {
-  margin-bottom: 46px;
+  margin-bottom: 35px;
   text-transform: uppercase;
   color: #707c97;
   cursor: pointer;
   font-size: 16px;
   line-height: 19px;
+  font-weight: 800;
 }
 .Icon {
-  margin-top: 87px;
-  margin-bottom: 75px;
+  margin-top: 5vh;
+  margin-bottom: 7vh;
 }
 ul > li:hover {
   color: #2a8bf2;
@@ -58,7 +82,7 @@ ul > li:hover {
   width: 24px;
   height: 24px;
   left: 35px;
-  top: 281px;
+  margin-top: -2.5px;
 }
 .Header-home:hover::before {
   content: url("../assets/Header-home-hover.svg");
@@ -70,7 +94,7 @@ ul > li:hover {
   width: 24px;
   height: 24px;
   left: 35px;
-  top: 346px;
+  margin-top: -2.5px;
 }
 .Header-chat:hover::before {
   content: url("../assets/Header-chat-hover.svg");
@@ -82,7 +106,7 @@ ul > li:hover {
   width: 24px;
   height: 24px;
   left: 35px;
-  top: 412px;
+  margin-top: -2.5px;
 }
 .Header-contact:hover::before {
   content: url("../assets/Header-contact-hover.svg");
@@ -94,7 +118,7 @@ ul > li:hover {
   width: 24px;
   height: 24px;
   left: 35px;
-  top: 478px;
+  margin-top: -2.5px;
 }
 .Header-notifications:hover::before {
   content: url("../assets/Header-notifications-hover.svg");
@@ -106,9 +130,12 @@ ul > li:hover {
   width: 24px;
   height: 24px;
   left: 35px;
-  top: 541px;
+  margin-top: -2.5px;
 }
 .Header-settings:hover::before {
   content: url("../assets/Header-settings-hover.svg");
+}
+nav {
+  margin-bottom: 37vh;
 }
 </style>

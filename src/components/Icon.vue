@@ -25,22 +25,24 @@ img {
   width: 86px;
   height: 86px;
   border-radius: 100%;
+  margin-left: 20px;
 }
 .wrapper-info > .name {
   color: #0d1c2e;
   font-size: 18px;
   line-height: 21px;
+  font-weight: 800;
 }
 span::before {
   position: absolute;
-  width: 10px;
-  height: 5px;
+  width: 11px;
+  height: 6px;
   content: " ";
   background-image: url("../assets/Icon-Shape.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   margin-left: 10px;
-  margin-top: 6px;
+  margin-top: 9px;
 }
 </style>

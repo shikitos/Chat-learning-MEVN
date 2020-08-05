@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Header />
+    <Header id="header" />
   </div>
 </template>
 
@@ -16,6 +16,10 @@ export default {
 </script>
 
 <style lang="scss">
+@font-face {
+  font-family: "TT Norms";
+  src: url("assets/fonts/TTNorms-Regular.ttf");
+}
 * {
   margin: 0;
   padding: 0;
@@ -26,11 +30,18 @@ body {
 }
 #app {
   display: block;
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "TT Norms", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  max-height: 100vh;
+  background: linear-gradient(180deg, #f3f3fb 0%, #fdfbfd 100%);
+}
+#header {
+  background: #ffffff;
+  box-shadow: 14.0351px 0 25px rgba(86, 128, 248, 0.03),
+    35.0877px 0 70px rgba(86, 128, 248, 0.05),
+    23.8596px 5.61404px 50px rgba(0, 0, 0, 0.02);
 }
 </style>
