@@ -20,15 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ea49ff6-7a5d-4a27-ad53-3fca4a177281" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/Header-logout.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/TTNorms-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/TTNorms-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/TTNorms-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Logout.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Chat-ElonMusk.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Chat-attach.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Chat-more.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Chat-send.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ChatArea/Chat.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ChatArea/ChatArea.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ChatArea/InputAndClick.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ChatArea/UserActions.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ChatArea/UserInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ChatArea/UserLogo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Icon.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Icon.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,12 +84,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Vue" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Purposes\Coding\Front-End\chat-learning-mevn\src\components\ChatArea" />
+      <recent name="D:\Purposes\Coding\Front-End\chat-learning-mevn\src\components" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Purposes\Coding\Front-End\chat-learning-mevn\src\assets\fonts" />
       <recent name="D:\Purposes\Coding\Front-End\chat-learning-mevn\src\assets" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Purposes\Coding\Front-End\chat-learning-mevn\src\components" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -106,7 +111,8 @@
       <workItem from="1596474194657" duration="1536000" />
       <workItem from="1596477527418" duration="530000" />
       <workItem from="1596478128512" duration="8350000" />
-      <workItem from="1596648618239" duration="7312000" />
+      <workItem from="1596648618239" duration="7876000" />
+      <workItem from="1596817614118" duration="6050000" />
     </task>
     <servers />
   </component>

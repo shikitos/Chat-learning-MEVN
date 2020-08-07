@@ -1,15 +1,18 @@
 <template>
   <div id="app">
     <Header id="header" />
+    <ChatArea />
   </div>
 </template>
 
 <script>
 import Header from "@/components/Header";
+import ChatArea from "@/components/ChatArea/Chat";
 
 export default {
   name: "App",
   components: {
+    ChatArea,
     Header
   }
 };
@@ -29,7 +32,8 @@ body {
   height: 100%;
 }
 #app {
-  display: block;
+  display: flex;
+  flex-direction: row;
   font-family: "TT Norms", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
