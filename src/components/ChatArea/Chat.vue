@@ -23,12 +23,12 @@ export default {
 
 <style scoped>
 .Chat {
+  min-width: 650px;
   display: flex;
   flex-direction: column;
   margin-left: 5%;
   align-self: flex-end;
   margin-bottom: 40px;
-  padding: 0 35px;
 }
 .input-text {
   flex-direction: row;

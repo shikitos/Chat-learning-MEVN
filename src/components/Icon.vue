@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img src="../assets/just_example.jpg" alt="" />
+    <div class="Icon-img"></div>
     <div class="wrapper-info">
       <p class="name">Nikita Shitov</p>
       <span></span>
@@ -21,7 +21,9 @@ export default {
   justify-content: center;
   margin-top: 15px;
 }
-img {
+.Icon-img {
+  background: #000 url("../assets/just_example.jpg") no-repeat center center /
+    contain;
   width: 86px;
   height: 86px;
   border-radius: 100%;

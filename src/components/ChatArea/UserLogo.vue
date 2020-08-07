@@ -18,6 +18,7 @@ export default {
 .UserLogo {
   display: flex;
   flex-direction: row;
+  margin-left: 25px;
 }
 .UserLogo > img {
   width: 54px;
@@ -36,6 +37,7 @@ export default {
   line-height: 21px;
   text-transform: capitalize;
   color: #0d1c2e;
+  margin-bottom: 6px;
 }
 .UserLogo-info > span {
   text-align: left;

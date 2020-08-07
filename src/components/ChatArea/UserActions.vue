@@ -20,6 +20,7 @@ export default {
 <style scoped>
 .UserActions {
   flex-direction: row;
+  margin-right: 25px;
 }
 .UserActions > ul {
   display: flex;
@@ -35,6 +36,7 @@ export default {
   border-radius: 100%;
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.03),
     0 7px 25px rgba(42, 139, 242, 0.03), 0 5px 25px rgba(42, 139, 242, 0.07);
+  cursor: pointer;
 }
 .UserActions-more {
   background: url("../../assets/Chat-more.svg") no-repeat center;
@@ -47,5 +49,6 @@ export default {
   margin-left: 20px;
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.03),
     0 7px 25px rgba(42, 139, 242, 0.03), 0 5px 25px rgba(42, 139, 242, 0.07);
+  cursor: pointer;
 }
 </style>
