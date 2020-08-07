@@ -21,11 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7ea49ff6-7a5d-4a27-ad53-3fca4a177281" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ChatArea/Chat.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChatArea/Chat.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ChatArea/InputAndClick.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChatArea/InputAndClick.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ChatArea/UserActions.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChatArea/UserActions.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ChatArea/UserLogo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChatArea/UserLogo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Icon.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Icon.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +101,7 @@
       <workItem from="1596477527418" duration="530000" />
       <workItem from="1596478128512" duration="8350000" />
       <workItem from="1596648618239" duration="7876000" />
-      <workItem from="1596817614118" duration="7839000" />
+      <workItem from="1596817614118" duration="9129000" />
     </task>
     <servers />
   </component>

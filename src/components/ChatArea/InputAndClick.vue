@@ -1,15 +1,25 @@
 <template>
   <div class="InputAndClick">
     <label>
-      <input type="text" placeholder="Type a message here" />
+      <input type="text" placeholder="Type a message here" v-model="message" />
     </label>
-    <button></button>
+    <button @click="getMessage()"></button>
   </div>
 </template>
 
 <script>
 export default {
-  name: "InputAndClick"
+  name: "InputAndClick",
+  data: function() {
+    return {
+      message: [this.message]
+    };
+  },
+  methods: {
+    getMessage: function() {
+      alert(this.message);
+    }
+  }
 };
 </script>
 
@@ -44,6 +54,7 @@ input::placeholder {
   cursor: pointer;
   background: #2a8bf2 url("../../assets/Chat-send.svg") no-repeat center center /
     20px 20px;
+  filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.03));
   box-shadow: 4px 4px 25px rgba(42, 139, 242, 0.15),
     2px 2px 25px rgba(42, 139, 242, 0.05), 4px 6px 10px rgba(42, 139, 242, 0.15);
   border: none;
