@@ -1,5 +1,5 @@
 <template>
-  <div class="InputAndClick">
+  <div class="InputAndClick" id="inputAndClick">
     <label>
       <input type="text" placeholder="Type a message here" v-model="message" />
     </label>
@@ -17,7 +17,9 @@ export default {
   },
   methods: {
     getMessage: function() {
-      alert(this.message);
+      let chatArea = document.getElementsByClassName("ChatArea");
+      chatArea.innerHTML += this.message;
+      this.message = "";
     }
   }
 };

@@ -1,5 +1,5 @@
 <template>
-  <div class="ChatArea"></div>
+  <div class="ChatArea" id="chatArea"></div>
 </template>
 
 <script>

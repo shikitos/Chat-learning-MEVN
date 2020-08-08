@@ -1,7 +1,7 @@
 <template>
   <div class="UserLogo">
     <img src="../../assets/Chat-ElonMusk.jpg" alt="Avatar" />
-    <div class="UserLogo-info">
+    <div class="UserLogo-info" id="userLogoInfo">
       <p>Elon Musk</p>
       <span>last online 5 hours ago</span>
     </div>

@@ -2,10 +2,10 @@
   <div class="UserActions">
     <ul>
       <li>
-        <button class="UserActions-attach"></button>
+        <button class="UserActions-attach" id="userActionsAttach"></button>
       </li>
       <li>
-        <button class="UserActions-more"></button>
+        <button class="UserActions-more" id="userActionMore"></button>
       </li>
     </ul>
   </div>

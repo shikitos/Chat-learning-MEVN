@@ -1,5 +1,5 @@
 <template>
-  <div class="UserInfo">
+  <div class="UserInfo" id="userInfo">
     <div>
       <UserLogo />
     </div>

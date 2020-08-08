@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="headerIcon">
     <div class="Icon-img"></div>
     <div class="wrapper-info">
       <p class="name">Nikita Shitov</p>

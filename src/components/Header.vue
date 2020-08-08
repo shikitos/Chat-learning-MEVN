@@ -20,6 +20,7 @@
         </li>
       </ul>
     </nav>
+    <DarkLightTheme />
     <Logout class="Logout" />
   </div>
 </template>
@@ -27,12 +28,14 @@
 <script>
 import Icon from "@/components/Icon";
 import Logout from "@/components/Logout";
+import DarkLightTheme from "@/components/DarkLightTheme";
 
 export default {
   name: "Header",
   components: {
     Icon,
-    Logout
+    Logout,
+    DarkLightTheme
   }
 };
 </script>
